@@ -1,9 +1,9 @@
 import java.util.List;
 
-abstract class Bebida {
-    abstract List<String> obterIngredientes();
+public abstract class Bebida {
+    public abstract List<String> obterIngredientes();
 
-    abstract double obterPreco();
+    public abstract double obterPreco();
 
     @Override
     public String toString() {
