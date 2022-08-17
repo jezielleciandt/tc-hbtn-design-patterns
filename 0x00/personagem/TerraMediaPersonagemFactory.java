@@ -1,5 +1,4 @@
 public class TerraMediaPersonagemFactory extends PersonagemFactory{
-
     @Override
     public Personagem createPersonagem(TipoPersonagem tipoPersonagem, String nome) {
         Personagem personagem;

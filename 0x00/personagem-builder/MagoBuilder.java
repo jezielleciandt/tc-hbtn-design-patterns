@@ -1,4 +1,5 @@
 public class MagoBuilder implements Builder{
+
     private String nome;
     private TipoPersonagem tipo;
     private int inteligencia;
@@ -13,8 +14,8 @@ public class MagoBuilder implements Builder{
     }
 
     @Override
-    public void setTipo(TipoPersonagem tipoPersonagem) {
-        this.tipo = tipoPersonagem;
+    public void setTipo(TipoPersonagem tipo) {
+        this.tipo = tipo;
     }
 
     @Override
@@ -23,23 +24,23 @@ public class MagoBuilder implements Builder{
     }
 
     @Override
-    public void setVigor(int vigor) {
-        this.vigor = vigor;
-    }
-
-    @Override
     public void setForca(int forca) {
         this.forca = forca;
     }
 
     @Override
-    public void setResistencia(int resistencia) {
-        this.resistencia = resistencia;
+    public void setDestreza(int destreza) {
+        this.destreza = destreza;
     }
 
     @Override
-    public void setDestreza(int destreza) {
-        this.destreza = destreza;
+    public void setVigor(int vigor) {
+        this.vigor = vigor;
+    }
+
+    @Override
+    public void setResistencia(int resistencia) {
+        this.resistencia = resistencia;
     }
 
     public Mago build() {

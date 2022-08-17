@@ -13,8 +13,8 @@ public class LadraoBuilder implements Builder{
     }
 
     @Override
-    public void setTipo(TipoPersonagem tipoPersonagem) {
-        this.tipo = tipoPersonagem;
+    public void setTipo(TipoPersonagem tipo) {
+        this.tipo = tipo;
     }
 
     @Override
@@ -23,18 +23,8 @@ public class LadraoBuilder implements Builder{
     }
 
     @Override
-    public void setVigor(int vigor) {
-        this.vigor = vigor;
-    }
-
-    @Override
     public void setForca(int forca) {
         this.forca = forca;
-    }
-
-    @Override
-    public void setResistencia(int resistencia) {
-        this.resistencia = resistencia;
     }
 
     @Override
@@ -42,7 +32,17 @@ public class LadraoBuilder implements Builder{
         this.destreza = destreza;
     }
 
-    public Ladrao build(){
+    @Override
+    public void setVigor(int vigor) {
+        this.vigor = vigor;
+    }
+
+    @Override
+    public void setResistencia(int resistencia) {
+        this.resistencia = resistencia;
+    }
+
+    public Ladrao build() {
         return new Ladrao(nome, inteligencia, forca, vigor, resistencia, destreza);
     }
 }
