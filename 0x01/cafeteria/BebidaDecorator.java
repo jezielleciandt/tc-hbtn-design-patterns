@@ -16,12 +16,12 @@ public class BebidaDecorator extends Bebida{
         this.bebidaDecorada = bebidaDecorada;
     }
     @Override
-    List<String> obterIngredientes() {
+    public List<String> obterIngredientes() {
         return bebidaDecorada.obterIngredientes();
     }
 
     @Override
-    double obterPreco() {
+    public double obterPreco() {
         return bebidaDecorada.obterPreco();
     }
 }
