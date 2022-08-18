@@ -11,8 +11,8 @@ public class Impressao {
 
     private double valorColoridasFrenteApenas;
 
-    private double getValorPretoBrancoFrenteApenas;
-
+    private double ValorPretoBrancoFrenteApenas;
+    
     private TamanhoImpressao tamanhoImpressao;
 
     public Impressao(TamanhoImpressao tamanhoImpressao, int paginasTotais, int paginasColoridas, boolean ehFrenteVerso) {
@@ -75,11 +75,11 @@ public class Impressao {
     }
 
     public double getGetValorPretoBrancoFrenteApenas() {
-        return getValorPretoBrancoFrenteApenas;
+        return ValorPretoBrancoFrenteApenas;
     }
 
     public void setGetValorPretoBrancoFrenteApenas(double getValorPretoBrancoFrenteApenas) {
-        this.getValorPretoBrancoFrenteApenas = getValorPretoBrancoFrenteApenas;
+        this.ValorPretoBrancoFrenteApenas = getValorPretoBrancoFrenteApenas;
     }
 
     public TamanhoImpressao getTamanhoImpressao() {
