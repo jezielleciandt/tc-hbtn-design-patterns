@@ -29,24 +29,4 @@ public class ItemPedido {
         this.nome = nome;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        ItemPedido that = (ItemPedido) o;
-        return tipo == that.tipo && Objects.equals(nome, that.nome);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(tipo, nome);
-    }
-
-    @Override
-    public String toString() {
-        return "ItemPedido{" +
-                "tipo=" + tipo +
-                ", nome='" + nome + '\'' +
-                '}';
-    }
 }

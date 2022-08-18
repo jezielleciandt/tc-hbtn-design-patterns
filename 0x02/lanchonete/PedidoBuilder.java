@@ -1,5 +1,5 @@
 public class PedidoBuilder extends PedidoAbstractBuilder{
-    private Pedido pedido;
+    private Pedido pedido = new Pedido();
 
     @Override
     public void setLanche(TipoLanche tipo) {
