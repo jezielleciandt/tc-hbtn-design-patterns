@@ -1,4 +1,4 @@
-public class NanoBotsDecorator extends NaveEspacialDecorador {
+public class NanoBotsDecorator extends NaveEspacialDecorator {
     public NanoBotsDecorator(NaveEspacial naveEspecial) {
         super(naveEspecial);
     }

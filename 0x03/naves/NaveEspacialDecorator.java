@@ -1,8 +1,8 @@
-public class NaveEspacialDecorador extends NaveEspacial {
+public class NaveEspacialDecorator extends NaveEspacial {
 
     private NaveEspacial naveEspecial;
 
-    public NaveEspacialDecorador(NaveEspacial naveEspecial) {
+    public NaveEspacialDecorator(NaveEspacial naveEspecial) {
         this.naveEspecial = naveEspecial;
     }
 

@@ -1,4 +1,4 @@
-public class LaserDecorator extends NaveEspacialDecorador {
+public class LaserDecorator extends NaveEspacialDecorator {
     public LaserDecorator(NaveEspacial naveEspecial) {
         super(naveEspecial);
     }

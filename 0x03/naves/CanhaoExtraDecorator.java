@@ -1,4 +1,4 @@
-public class CanhaoExtraDecorator extends NaveEspacialDecorador {
+public class CanhaoExtraDecorator extends NaveEspacialDecorator {
 
 
     public CanhaoExtraDecorator(NaveEspacial naveEspecial) {
