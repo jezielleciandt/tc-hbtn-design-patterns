@@ -1,0 +1,14 @@
+O que é Arquitetura Hexagonal e por quem ela foi criada ?
+A ideia da Arquitetura Hexagonal é construir sistemas que favorecem reusabilidade de código, alta coesão, baixo acoplamento, independência de tecnologia e que são mais fáceis de serem testados. Também conhecida como Arquitetura de portas e adaptadores, propõe mater todo domínio (Regras de negócio) desacoplado dos componentes externos. O conceito de Arquitetura Hexagonal foi proposto por Alistair Cockburn, em meados dos anos 90.
+
+Quais são os benefícios e recursos que Arquitetura Hexagonal fornece?
+Deixar a lógica da aplicação totalmente independente facilita a contrução de testes isolados e sem nenhuma interferência de outra camada. Além de proteger a lógica do negócio caso seja necessário atualizar a camada de seriço. Confer também, a aplicação um crescimento sustentável com melhor mantenabilidade, coesão e mínimo acoplamento.
+
+Quais as diferenças entre Arquitetura Hexagonal e Clean Architecture ?
+Arquitetura limpa aborda uma visão que na prática consolida o uso de camadas, inversão de dependências e DDD. Assemelha-se à proposta da Hexagonal Architecture, mas segue a linha proposta por outro padrão, o Onion architecture. É outra forma de representar a hierarquia entre as camadas, mas mantendo as premissas de isolamento e inversão de dependências. Clean Architecture aborda vários conceitos importantes para implementar software e camadas organizadas e reutilizáveis, como as camadas mais próximas do núcleo definirem as interfaces para persistência e a implementação concreta destas interfaces estar no círculo mais externo fazendo parte de “Frameworks e Drivers”, o que é a inversão de dependências na prática, podendo inclusive também fazer uso de injeção de dependência.
+~                                                             
+Na sua opinião, a Arquitetura Hexagonal pode ser utilizada em qualquer tipo de projeto ?
+Para projetos pequenos que não há pretenção de escalabilidade, seria mais custoso. Porém, se há intenção de fazer crescer a aplicação e torná-la escalável, a Arquitetura Hexagonal se torna mais interessante.
+
+Quais informações devem ser consideradas antes de desenvolver sistemas usando esse padrão de projeto ?
+Conhecer bem o negócio da aplicação para entender o que melhor se encaixa na resolução dos seus problemas.
